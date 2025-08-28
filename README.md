@@ -4,6 +4,8 @@
 - Настроить .env (по сути просто продублировать .env.example)
 - php artisan migrate
 - php artisan key:generate
+- npm install
+- npm run build
 - php artisan serve
 
 ## Краткая документация API для управления задачами
