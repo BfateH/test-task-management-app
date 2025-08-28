@@ -21,9 +21,7 @@ http://localhost/api
 **Работа с задачами**
 - GET /api/tasks
 - GET /api/tasks?status=new&executor_id=1&producer_id=2&created_from=2023-01-01&created_to=2023-12-31&due_date_from=2023-06-01&due_date_to=2023-06-30&actual_date_from=2023-07-01&actual_date_to=2023-07-31&name=Важная задача&description=срочно&in_archive=0
-- GET /api/tasks/create
 - POST /api/tasks
-- GET /api/tasks/1/edit
 - PATCH /api/tasks/1
 - PATCH /api/tasks/1/change-status
 - GET /api/tasks/1/next-status
